@@ -1,0 +1,215 @@
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+  font-family: "Poppins", sans-serif;
+
+}
+
+body {
+
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+
+  color: #fff;
+
+  line-height: 1.6;
+
+  overflow-x: hidden;
+
+}
+
+header {
+
+  text-align: center;
+
+  padding: 40px 20px;
+
+}
+
+header h1 {
+
+  font-size: 3rem;
+
+  font-weight: bold;
+
+  color: #ffcc00;
+
+  text-shadow: 0 0 15px #ff8800;
+
+}
+
+header p {
+
+  font-size: 1.2rem;
+
+  margin-top: 10px;
+
+}
+
+nav {
+
+  margin-top: 20px;
+
+}
+
+nav a {
+
+  color: #fff;
+
+  text-decoration: none;
+
+  margin: 0 12px;
+
+  padding: 8px 15px;
+
+  background: #ff8800;
+
+  border-radius: 8px;
+
+  transition: 0.3s;
+
+  font-weight: bold;
+
+}
+
+nav a:hover {
+
+  background: #ffcc00;
+
+  color: #000;
+
+}
+
+section {
+
+  padding: 60px 20px;
+
+  margin: 20px auto;
+
+  width: 85%;
+
+  background: rgba(255, 255, 255, 0.1);
+
+  border-radius: 20px;
+
+  box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+
+  opacity: 0;
+
+  transform: translateY(50px);
+
+  transition: all 0.8s ease;
+
+}
+
+section.show {
+
+  opacity: 1;
+
+  transform: translateY(0);
+
+}
+
+section h2 {
+
+  font-size: 2rem;
+
+  margin-bottom: 20px;
+
+  color: #ffcc00;
+
+}
+
+.skills ul {
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+
+  gap: 15px;
+
+  list-style: none;
+
+}
+
+.skills li {
+
+  background: #ff8800;
+
+  padding: 12px;
+
+  text-align: center;
+
+  border-radius: 10px;
+
+  font-weight: bold;
+
+  transition: transform 0.3s;
+
+}
+
+.skills li:hover {
+
+  background: #ffcc00;
+
+  color: #000;
+
+  transform: scale(1.1);
+
+}
+
+.projects .card {
+
+  background: #fff;
+
+  color: #000;
+
+  padding: 20px;
+
+  margin: 15px 0;
+
+  border-radius: 12px;
+
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+
+  transition: 0.3s;
+
+}
+
+.projects .card:hover {
+
+  transform: translateY(-6px);
+
+  background: #f7f7f7;
+
+}
+
+footer {
+
+  text-align: center;
+
+  padding: 20px;
+
+  background: rgba(0,0,0,0.6);
+
+  margin-top: 40px;
+
+}
+
+footer p {
+
+  color: #ffcc00;
+
+}
+
+.highlight {
+
+  color: #ffcc00;
+
+  font-weight: bold;
+
+}
